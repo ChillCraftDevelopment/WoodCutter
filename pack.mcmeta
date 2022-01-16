@@ -1,0 +1,15 @@
+{
+	"pack": {
+		"pack_format": 8,
+		"description": [
+			{
+				"text": "WoodCutter",
+				"color": "gray"
+			},
+			{
+				"text": "\nChillCraft Development",
+				"color": "gold"
+			}
+		]
+	}
+}
