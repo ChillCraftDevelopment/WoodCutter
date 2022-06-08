@@ -3,6 +3,6 @@
     "ingredient": {
         "item": "minecraft:stripped_mangrove_wood"
     },
-    "result": "minecraft:jungle_door",
+    "result": "minecraft:mangrove_door",
     "count": 2
 }
