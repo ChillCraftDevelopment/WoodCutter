@@ -1,0 +1,43 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_stripped_spruce_log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:stripped_spruce_log"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_stripped_spruce_log"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "woodcutter:spruce/stripped/boat",
+            "woodcutter:spruce/stripped/bowl",
+            "woodcutter:spruce/stripped/button",
+            "woodcutter:spruce/stripped/composter",
+            "woodcutter:spruce/stripped/crafting",
+            "woodcutter:spruce/stripped/door",
+            "woodcutter:spruce/stripped/fence",
+            "woodcutter:spruce/stripped/fencegate",
+            "woodcutter:spruce/stripped/ladder",
+            "woodcutter:spruce/stripped/planks",
+            "woodcutter:spruce/stripped/pressure",
+            "woodcutter:spruce/stripped/sign",
+            "woodcutter:spruce/stripped/slab",
+            "woodcutter:spruce/stripped/stairs",
+            "woodcutter:spruce/stripped/stick",
+            "woodcutter:spruce/stripped/strippedwood",
+            "woodcutter:spruce/stripped/trapdoor"
+        ]
+    }
+}

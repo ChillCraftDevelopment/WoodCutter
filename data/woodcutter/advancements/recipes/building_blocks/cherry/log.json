@@ -1,0 +1,45 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_cherry_log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:cherry_log"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_cherry_log"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "woodcutter:cherry/log/boat",
+            "woodcutter:cherry/log/bowl",
+            "woodcutter:cherry/log/button",
+            "woodcutter:cherry/log/composter",
+            "woodcutter:cherry/log/crafting",
+            "woodcutter:cherry/log/door",
+            "woodcutter:cherry/log/fence",
+            "woodcutter:cherry/log/fencegate",
+            "woodcutter:cherry/log/ladder",
+            "woodcutter:cherry/log/planks",
+            "woodcutter:cherry/log/pressure",
+            "woodcutter:cherry/log/sign",
+            "woodcutter:cherry/log/slab",
+            "woodcutter:cherry/log/stairs",
+            "woodcutter:cherry/log/stick",
+            "woodcutter:cherry/log/stripped",
+            "woodcutter:cherry/log/strippedwood",
+            "woodcutter:cherry/log/trapdoor",
+            "woodcutter:cherry/log/wood"
+        ]
+    }
+}

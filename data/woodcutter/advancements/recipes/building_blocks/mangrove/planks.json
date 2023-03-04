@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_mangrove_planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:mangrove_planks"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_mangrove_planks"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "woodcutter:mangrove/plank/bowl",
+            "woodcutter:mangrove/plank/button",
+            "woodcutter:mangrove/plank/slab",
+            "woodcutter:mangrove/plank/stairs",
+            "woodcutter:mangrove/plank/stick",
+            "woodcutter:mangrove/plank/trapdoor"
+        ]
+    }
+}

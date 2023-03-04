@@ -1,0 +1,42 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_warped_hyphae": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:warped_hyphae"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_warped_hyphae"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "woodcutter:warped/hyphae/bowl",
+            "woodcutter:warped/hyphae/button",
+            "woodcutter:warped/hyphae/composter",
+            "woodcutter:warped/hyphae/crafting",
+            "woodcutter:warped/hyphae/door",
+            "woodcutter:warped/hyphae/fence",
+            "woodcutter:warped/hyphae/fencegate",
+            "woodcutter:warped/hyphae/ladder",
+            "woodcutter:warped/hyphae/planks",
+            "woodcutter:warped/hyphae/pressure",
+            "woodcutter:warped/hyphae/sign",
+            "woodcutter:warped/hyphae/slab",
+            "woodcutter:warped/hyphae/stairs",
+            "woodcutter:warped/hyphae/stick",
+            "woodcutter:warped/hyphae/strippedhyphae",
+            "woodcutter:warped/hyphae/trapdoor"
+        ]
+    }
+}

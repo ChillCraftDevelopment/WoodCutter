@@ -1,0 +1,42 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_stripped_warped_stem": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:stripped_warped_stem"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_stripped_warped_stem"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "woodcutter:warped/stripped/bowl",
+            "woodcutter:warped/stripped/button",
+            "woodcutter:warped/stripped/composter",
+            "woodcutter:warped/stripped/crafting",
+            "woodcutter:warped/stripped/door",
+            "woodcutter:warped/stripped/fence",
+            "woodcutter:warped/stripped/fencegate",
+            "woodcutter:warped/stripped/ladder",
+            "woodcutter:warped/stripped/planks",
+            "woodcutter:warped/stripped/pressure",
+            "woodcutter:warped/stripped/sign",
+            "woodcutter:warped/stripped/slab",
+            "woodcutter:warped/stripped/stairs",
+            "woodcutter:warped/stripped/stick",
+            "woodcutter:warped/stripped/strippedhyphae",
+            "woodcutter:warped/stripped/trapdoor"
+        ]
+    }
+}

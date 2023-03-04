@@ -1,0 +1,43 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_mangrove_wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:mangrove_wood"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_mangrove_wood"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "woodcutter:mangrove/wood/boat",
+            "woodcutter:mangrove/wood/bowl",
+            "woodcutter:mangrove/wood/button",
+            "woodcutter:mangrove/wood/composter",
+            "woodcutter:mangrove/wood/crafting",
+            "woodcutter:mangrove/wood/door",
+            "woodcutter:mangrove/wood/fence",
+            "woodcutter:mangrove/wood/fencegate",
+            "woodcutter:mangrove/wood/ladder",
+            "woodcutter:mangrove/wood/planks",
+            "woodcutter:mangrove/wood/pressure",
+            "woodcutter:mangrove/wood/sign",
+            "woodcutter:mangrove/wood/slab",
+            "woodcutter:mangrove/wood/stairs",
+            "woodcutter:mangrove/wood/stick",
+            "woodcutter:mangrove/wood/strippedwood",
+            "woodcutter:mangrove/wood/trapdoor"
+        ]
+    }
+}

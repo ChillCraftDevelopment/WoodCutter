@@ -1,0 +1,42 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_stripped_crimson_stem": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:stripped_crimson_stem"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_stripped_crimson_stem"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "woodcutter:crimson/stripped/bowl",
+            "woodcutter:crimson/stripped/button",
+            "woodcutter:crimson/stripped/composter",
+            "woodcutter:crimson/stripped/crafting",
+            "woodcutter:crimson/stripped/door",
+            "woodcutter:crimson/stripped/fence",
+            "woodcutter:crimson/stripped/fencegate",
+            "woodcutter:crimson/stripped/ladder",
+            "woodcutter:crimson/stripped/planks",
+            "woodcutter:crimson/stripped/pressure",
+            "woodcutter:crimson/stripped/sign",
+            "woodcutter:crimson/stripped/slab",
+            "woodcutter:crimson/stripped/stairs",
+            "woodcutter:crimson/stripped/stick",
+            "woodcutter:crimson/stripped/strippedhyphae",
+            "woodcutter:crimson/stripped/trapdoor"
+        ]
+    }
+}

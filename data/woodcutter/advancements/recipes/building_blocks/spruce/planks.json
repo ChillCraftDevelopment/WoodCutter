@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_spruce_planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:spruce_planks"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_spruce_planks"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "woodcutter:spruce/plank/bowl",
+            "woodcutter:spruce/plank/button",
+            "woodcutter:spruce/plank/slab",
+            "woodcutter:spruce/plank/stairs",
+            "woodcutter:spruce/plank/stick",
+            "woodcutter:spruce/plank/trapdoor"
+        ]
+    }
+}

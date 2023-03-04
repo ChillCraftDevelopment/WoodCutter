@@ -1,0 +1,42 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_stripped_jungle_wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:stripped_jungle_wood"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_stripped_jungle_wood"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "woodcutter:jungle/strippedwood/boat",
+            "woodcutter:jungle/strippedwood/bowl",
+            "woodcutter:jungle/strippedwood/button",
+            "woodcutter:jungle/strippedwood/composter",
+            "woodcutter:jungle/strippedwood/crafting",
+            "woodcutter:jungle/strippedwood/door",
+            "woodcutter:jungle/strippedwood/fence",
+            "woodcutter:jungle/strippedwood/fencegate",
+            "woodcutter:jungle/strippedwood/ladder",
+            "woodcutter:jungle/strippedwood/planks",
+            "woodcutter:jungle/strippedwood/pressure",
+            "woodcutter:jungle/strippedwood/sign",
+            "woodcutter:jungle/strippedwood/slab",
+            "woodcutter:jungle/strippedwood/stairs",
+            "woodcutter:jungle/strippedwood/stick",
+            "woodcutter:jungle/strippedwood/trapdoor"
+        ]
+    }
+}

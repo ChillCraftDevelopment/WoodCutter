@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_acacia_planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:acacia_planks"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_acacia_planks"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "woodcutter:acacia/plank/bowl",
+            "woodcutter:acacia/plank/button",
+            "woodcutter:acacia/plank/slab",
+            "woodcutter:acacia/plank/stairs",
+            "woodcutter:acacia/plank/stick",
+            "woodcutter:acacia/plank/trapdoor"
+        ]
+    }
+}

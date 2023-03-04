@@ -1,0 +1,43 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_birch_wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:birch_wood"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_birch_wood"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "woodcutter:birch/wood/boat",
+            "woodcutter:birch/wood/bowl",
+            "woodcutter:birch/wood/button",
+            "woodcutter:birch/wood/composter",
+            "woodcutter:birch/wood/crafting",
+            "woodcutter:birch/wood/door",
+            "woodcutter:birch/wood/fence",
+            "woodcutter:birch/wood/fencegate",
+            "woodcutter:birch/wood/ladder",
+            "woodcutter:birch/wood/planks",
+            "woodcutter:birch/wood/pressure",
+            "woodcutter:birch/wood/sign",
+            "woodcutter:birch/wood/slab",
+            "woodcutter:birch/wood/stairs",
+            "woodcutter:birch/wood/stick",
+            "woodcutter:birch/wood/strippedwood",
+            "woodcutter:birch/wood/trapdoor"
+        ]
+    }
+}

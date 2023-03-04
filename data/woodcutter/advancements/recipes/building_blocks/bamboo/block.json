@@ -1,0 +1,39 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_bamboo_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:bamboo_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_bamboo_block"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "woodcutter:bamboo/block/bowl",
+            "woodcutter:bamboo/block/button",
+            "woodcutter:bamboo/block/door",
+            "woodcutter:bamboo/block/fence",
+            "woodcutter:bamboo/block/ladder",
+            "woodcutter:bamboo/block/planks",
+            "woodcutter:bamboo/block/pressure",
+            "woodcutter:bamboo/block/sign",
+            "woodcutter:bamboo/block/slab",
+            "woodcutter:bamboo/block/stairs",
+            "woodcutter:bamboo/block/stick",
+            "woodcutter:bamboo/block/stripped",
+            "woodcutter:bamboo/block/trapdoor"
+        ]
+    }
+}

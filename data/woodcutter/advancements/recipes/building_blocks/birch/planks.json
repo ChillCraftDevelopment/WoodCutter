@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_birch_planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:birch_planks"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_birch_planks"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "woodcutter:birch/plank/bowl",
+            "woodcutter:birch/plank/button",
+            "woodcutter:birch/plank/slab",
+            "woodcutter:birch/plank/stairs",
+            "woodcutter:birch/plank/stick",
+            "woodcutter:birch/plank/trapdoor"
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_stripped_dark_oak_wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:stripped_dark_oak_wood"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_stripped_dark_oak_wood"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "woodcutter:dark_oak/strippedwood/boat",
+            "woodcutter:dark_oak/strippedwood/bowl",
+            "woodcutter:dark_oak/strippedwood/button",
+            "woodcutter:dark_oak/strippedwood/composter",
+            "woodcutter:dark_oak/strippedwood/crafting",
+            "woodcutter:dark_oak/strippedwood/door",
+            "woodcutter:dark_oak/strippedwood/fence",
+            "woodcutter:dark_oak/strippedwood/fencegate",
+            "woodcutter:dark_oak/strippedwood/ladder",
+            "woodcutter:dark_oak/strippedwood/planks",
+            "woodcutter:dark_oak/strippedwood/pressure",
+            "woodcutter:dark_oak/strippedwood/sign",
+            "woodcutter:dark_oak/strippedwood/slab",
+            "woodcutter:dark_oak/strippedwood/stairs",
+            "woodcutter:dark_oak/strippedwood/stick",
+            "woodcutter:dark_oak/strippedwood/trapdoor"
+        ]
+    }
+}

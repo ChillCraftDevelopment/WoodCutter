@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_cherry_planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:cherry_planks"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_cherry_planks"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "woodcutter:cherry/plank/bowl",
+            "woodcutter:cherry/plank/button",
+            "woodcutter:cherry/plank/slab",
+            "woodcutter:cherry/plank/stairs",
+            "woodcutter:cherry/plank/stick",
+            "woodcutter:cherry/plank/trapdoor"
+        ]
+    }
+}

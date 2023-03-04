@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_bamboo_mosaic": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:bamboo_mosaic"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_bamboo_mosaicc"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "woodcutter:bamboo/mosaic/bowl",
+            "woodcutter:bamboo/mosaic/button",
+            "woodcutter:bamboo/mosaic/slab",
+            "woodcutter:bamboo/mosaic/stairs",
+            "woodcutter:bamboo/mosaic/stick",
+            "woodcutter:bamboo/mosaic/trapdoor"
+        ]
+    }
+}

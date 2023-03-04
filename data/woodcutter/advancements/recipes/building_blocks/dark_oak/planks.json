@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_dark_oak_planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:dark_oak_planks"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_dark_oak_planks"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "woodcutter:dark_oak/plank/bowl",
+            "woodcutter:dark_oak/plank/button",
+            "woodcutter:dark_oak/plank/slab",
+            "woodcutter:dark_oak/plank/stairs",
+            "woodcutter:dark_oak/plank/stick",
+            "woodcutter:dark_oak/plank/trapdoor"
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_stripped_cherry_wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:stripped_cherry_wood"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_stripped_cherry_wood"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "woodcutter:cherry/strippedwood/boat",
+            "woodcutter:cherry/strippedwood/bowl",
+            "woodcutter:cherry/strippedwood/button",
+            "woodcutter:cherry/strippedwood/composter",
+            "woodcutter:cherry/strippedwood/crafting",
+            "woodcutter:cherry/strippedwood/door",
+            "woodcutter:cherry/strippedwood/fence",
+            "woodcutter:cherry/strippedwood/fencegate",
+            "woodcutter:cherry/strippedwood/ladder",
+            "woodcutter:cherry/strippedwood/planks",
+            "woodcutter:cherry/strippedwood/pressure",
+            "woodcutter:cherry/strippedwood/sign",
+            "woodcutter:cherry/strippedwood/slab",
+            "woodcutter:cherry/strippedwood/stairs",
+            "woodcutter:cherry/strippedwood/stick",
+            "woodcutter:cherry/strippedwood/trapdoor"
+        ]
+    }
+}

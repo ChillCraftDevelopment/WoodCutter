@@ -1,0 +1,45 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_oak_log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:oak_log"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_oak_log"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "woodcutter:oak/log/boat",
+            "woodcutter:oak/log/bowl",
+            "woodcutter:oak/log/button",
+            "woodcutter:oak/log/composter",
+            "woodcutter:oak/log/crafting",
+            "woodcutter:oak/log/door",
+            "woodcutter:oak/log/fence",
+            "woodcutter:oak/log/fencegate",
+            "woodcutter:oak/log/ladder",
+            "woodcutter:oak/log/planks",
+            "woodcutter:oak/log/pressure",
+            "woodcutter:oak/log/sign",
+            "woodcutter:oak/log/slab",
+            "woodcutter:oak/log/stairs",
+            "woodcutter:oak/log/stick",
+            "woodcutter:oak/log/stripped",
+            "woodcutter:oak/log/strippedwood",
+            "woodcutter:oak/log/trapdoor",
+            "woodcutter:oak/log/wood"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_jungle_planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:jungle_planks"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_jungle_planks"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "woodcutter:jungle/plank/bowl",
+            "woodcutter:jungle/plank/button",
+            "woodcutter:jungle/plank/slab",
+            "woodcutter:jungle/plank/stairs",
+            "woodcutter:jungle/plank/stick",
+            "woodcutter:jungle/plank/trapdoor"
+        ]
+    }
+}

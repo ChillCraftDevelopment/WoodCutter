@@ -1,0 +1,43 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_stripped_acacia_log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:stripped_acacia_log"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_stripped_acacia_log"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "woodcutter:acacia/stripped/boat",
+            "woodcutter:acacia/stripped/bowl",
+            "woodcutter:acacia/stripped/button",
+            "woodcutter:acacia/stripped/composter",
+            "woodcutter:acacia/stripped/crafting",
+            "woodcutter:acacia/stripped/door",
+            "woodcutter:acacia/stripped/fence",
+            "woodcutter:acacia/stripped/fencegate",
+            "woodcutter:acacia/stripped/ladder",
+            "woodcutter:acacia/stripped/planks",
+            "woodcutter:acacia/stripped/pressure",
+            "woodcutter:acacia/stripped/sign",
+            "woodcutter:acacia/stripped/slab",
+            "woodcutter:acacia/stripped/stairs",
+            "woodcutter:acacia/stripped/stick",
+            "woodcutter:acacia/stripped/strippedwood",
+            "woodcutter:acacia/stripped/trapdoor"
+        ]
+    }
+}

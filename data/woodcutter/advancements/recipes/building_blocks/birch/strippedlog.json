@@ -1,0 +1,43 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_stripped_birch_log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:stripped_birch_log"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_stripped_birch_log"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "woodcutter:birch/stripped/boat",
+            "woodcutter:birch/stripped/bowl",
+            "woodcutter:birch/stripped/button",
+            "woodcutter:birch/stripped/composter",
+            "woodcutter:birch/stripped/crafting",
+            "woodcutter:birch/stripped/door",
+            "woodcutter:birch/stripped/fence",
+            "woodcutter:birch/stripped/fencegate",
+            "woodcutter:birch/stripped/ladder",
+            "woodcutter:birch/stripped/planks",
+            "woodcutter:birch/stripped/pressure",
+            "woodcutter:birch/stripped/sign",
+            "woodcutter:birch/stripped/slab",
+            "woodcutter:birch/stripped/stairs",
+            "woodcutter:birch/stripped/stick",
+            "woodcutter:birch/stripped/strippedwood",
+            "woodcutter:birch/stripped/trapdoor"
+        ]
+    }
+}
