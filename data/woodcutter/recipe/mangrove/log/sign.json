@@ -3,6 +3,8 @@
     "ingredient": {
         "item": "minecraft:mangrove_log"
     },
-    "result": "minecraft:mangrove_sign",
-    "count": 2
+    "result": {
+        "id":"minecraft:mangrove_sign",
+        "count": 2
+    }
 }

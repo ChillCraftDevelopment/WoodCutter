@@ -3,6 +3,8 @@
     "ingredient": {
         "item": "minecraft:mangrove_log"
     },
-    "result": "minecraft:bowl",
-    "count": 5
+    "result": {
+        "id":"minecraft:bowl",
+        "count": 5
+    }
 }
