@@ -3,6 +3,8 @@
     "ingredient": {
         "item": "minecraft:stripped_bamboo_block"
     },
-    "result": "minecraft:bowl",
-    "count": 3
+    "result": {
+        "id":"minecraft:bowl",
+        "count": 3
+    }
 }
