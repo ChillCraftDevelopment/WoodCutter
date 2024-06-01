@@ -3,6 +3,8 @@
     "ingredient": {
         "item": "minecraft:stripped_cherry_log"
     },
-    "result": "minecraft:cherry_door",
-    "count": 2
+    "result": {
+        "id":"minecraft:cherry_door",
+        "count": 2
+    }
 }
