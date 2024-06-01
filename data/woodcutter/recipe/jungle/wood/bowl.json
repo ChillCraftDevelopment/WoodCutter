@@ -3,6 +3,8 @@
     "ingredient": {
         "item": "minecraft:jungle_wood"
     },
-    "result": "minecraft:bowl",
-    "count": 5
+    "result": {
+        "id":"minecraft:bowl",
+        "count": 5
+    }
 }

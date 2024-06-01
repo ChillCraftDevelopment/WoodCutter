@@ -3,6 +3,8 @@
     "ingredient": {
         "item": "minecraft:jungle_log"
     },
-    "result": "minecraft:jungle_door",
-    "count": 2
+    "result": {
+        "id":"minecraft:jungle_door",
+        "count": 2
+    }
 }
