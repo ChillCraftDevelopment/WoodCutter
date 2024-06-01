@@ -3,6 +3,8 @@
     "ingredient": {
         "item": "minecraft:oak_log"
     },
-    "result": "minecraft:oak_fence",
-    "count": 3
+    "result": {
+        "id":"minecraft:oak_fence",
+        "count": 3
+    }
 }

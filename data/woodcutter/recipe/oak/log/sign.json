@@ -3,6 +3,8 @@
     "ingredient": {
         "item": "minecraft:oak_log"
     },
-    "result": "minecraft:oak_sign",
-    "count": 2
+    "result": {
+        "id":"minecraft:oak_sign",
+        "count": 2
+    }
 }

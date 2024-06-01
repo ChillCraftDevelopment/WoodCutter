@@ -3,6 +3,8 @@
     "ingredient": {
         "item": "minecraft:oak_wood"
     },
-    "result": "minecraft:oak_door",
-    "count": 2
+    "result": {
+        "id":"minecraft:oak_door",
+        "count": 2
+    }
 }
