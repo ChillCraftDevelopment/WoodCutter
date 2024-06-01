@@ -3,6 +3,8 @@
     "ingredient": {
         "item": "minecraft:dark_oak_wood"
     },
-    "result": "minecraft:dark_oak_fence",
-    "count": 3
+    "result": {
+        "id":"minecraft:dark_oak_fence",
+        "count": 3
+    }
 }
