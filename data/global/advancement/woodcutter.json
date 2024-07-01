@@ -7,14 +7,14 @@
     "description": [
       "",
       {
-        "text": "I am Groot.",
+        "text": "Use the Stonecutter to cut all type of logs and planks.",
         "color": "gray"
       }
     ],
     "show_toast": false,
     "announce_to_chat": false
   },
-  "parent": "chillcraft:root",
+  "parent": "global:chillcraft",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"
