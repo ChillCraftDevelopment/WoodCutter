@@ -1,5 +1,5 @@
 <h1 id="topBanner"align="center">
-    <img src=".github\resources\BannerWoodcutter.png" alt="Woodcutter Banner" />
+    <img src=".github\resources\BannerWoodCutter.png" alt="Woodcutter Banner" />
 </h1>
 
 <div align="center">
