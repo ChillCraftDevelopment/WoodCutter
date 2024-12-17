@@ -1,6 +1,6 @@
 {
     "type": "minecraft:stonecutting",
-    "ingredient": "minecraft:acacia_planks,
+    "ingredient": "minecraft:acacia_planks",
     "result": {
         "id":"minecraft:stick",
         "count": 2
