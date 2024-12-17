@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_pale_oak_planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:pale_oak_planks"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_pale_oak_planks"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "woodcutter:pale_oak/plank/bowl",
+            "woodcutter:pale_oak/plank/button",
+            "woodcutter:pale_oak/plank/slab",
+            "woodcutter:pale_oak/plank/stairs",
+            "woodcutter:pale_oak/plank/stick",
+            "woodcutter:pale_oak/plank/trapdoor"
+        ]
+    }
+}

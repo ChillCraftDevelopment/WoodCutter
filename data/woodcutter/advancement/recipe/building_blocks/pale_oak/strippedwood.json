@@ -1,0 +1,42 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_stripped_pale_oak_wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:stripped_pale_oak_wood"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_stripped_pale_oak_wood"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "woodcutter:pale_oak/strippedwood/boat",
+            "woodcutter:pale_oak/strippedwood/bowl",
+            "woodcutter:pale_oak/strippedwood/button",
+            "woodcutter:pale_oak/strippedwood/composter",
+            "woodcutter:pale_oak/strippedwood/crafting",
+            "woodcutter:pale_oak/strippedwood/door",
+            "woodcutter:pale_oak/strippedwood/fence",
+            "woodcutter:pale_oak/strippedwood/fencegate",
+            "woodcutter:pale_oak/strippedwood/ladder",
+            "woodcutter:pale_oak/strippedwood/planks",
+            "woodcutter:pale_oak/strippedwood/pressure",
+            "woodcutter:pale_oak/strippedwood/sign",
+            "woodcutter:pale_oak/strippedwood/slab",
+            "woodcutter:pale_oak/strippedwood/stairs",
+            "woodcutter:pale_oak/strippedwood/stick",
+            "woodcutter:pale_oak/strippedwood/trapdoor"
+        ]
+    }
+}
