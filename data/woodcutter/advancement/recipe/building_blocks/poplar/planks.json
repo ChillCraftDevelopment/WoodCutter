@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_poplar_planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:poplar_planks"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_poplar_planks"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "woodcutter:poplar/plank/bowl",
+            "woodcutter:poplar/plank/button",
+            "woodcutter:poplar/plank/slab",
+            "woodcutter:poplar/plank/stairs",
+            "woodcutter:poplar/plank/stick",
+            "woodcutter:poplar/plank/trapdoor"
+        ]
+    }
+}

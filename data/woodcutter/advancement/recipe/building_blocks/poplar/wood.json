@@ -1,0 +1,43 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_poplar_wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:poplar_wood"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_poplar_wood"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "woodcutter:poplar/wood/boat",
+            "woodcutter:poplar/wood/bowl",
+            "woodcutter:poplar/wood/button",
+            "woodcutter:poplar/wood/composter",
+            "woodcutter:poplar/wood/crafting",
+            "woodcutter:poplar/wood/door",
+            "woodcutter:poplar/wood/fence",
+            "woodcutter:poplar/wood/fencegate",
+            "woodcutter:poplar/wood/ladder",
+            "woodcutter:poplar/wood/planks",
+            "woodcutter:poplar/wood/pressure",
+            "woodcutter:poplar/wood/sign",
+            "woodcutter:poplar/wood/slab",
+            "woodcutter:poplar/wood/stairs",
+            "woodcutter:poplar/wood/stick",
+            "woodcutter:poplar/wood/strippedwood",
+            "woodcutter:poplar/wood/trapdoor"
+        ]
+    }
+}
