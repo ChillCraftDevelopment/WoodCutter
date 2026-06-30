@@ -8,7 +8,7 @@
 </div>
 
 <h1>Woodcutter</h1>
-Datapack for Minecraft 1.21! This datapack adds over 700 new balanced recipes to stonecutter to use it for wood. All types of logs, woods, stripped logs, stripped woods, and planks can be used in the <del>stone</del>woodcutter.
+Datapack for Minecraft 26.2! This datapack adds over 700 new balanced recipes to stonecutter to use it for wood. All types of logs, woods, stripped logs, stripped woods, and planks can be used in the <del>stone</del>woodcutter.
 
 <h2 id="screenshots">Screenshots</h2>
 
